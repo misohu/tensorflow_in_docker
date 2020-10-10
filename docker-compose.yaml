@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+    tensorflow:
+      build: ./TensorFlowFolder
+      ports:
+          - "8888:8888"
+      volumes:
+          - ./TensorFlowFolder:/tf
